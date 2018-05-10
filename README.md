@@ -29,6 +29,8 @@
 
 `$("#rating1").rating(num);`
 
+
+
 param | Type | Description 
 - | :-: | -: 
 num | {Number} | the number of stars 
