@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>基于 jQuery 的星级评分插件</title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+  <ul class="rating" id="rating1">
+    <li class="rating-item" title="很不好"></li>
+    <li class="rating-item" title="不好"></li>
+    <li class="rating-item" title="一般"></li>
+    <li class="rating-item" title="好"></li>
+    <li class="rating-item" title="很好"></li>   
+    <li class="rating-item" title="很好"></li>   
+    <li class="rating-item" title="很好"></li>   
+  </ul>
+  <ul class="rating" id="rating2">
+    <li class="rating-item" title="很不好"></li>
+    <li class="rating-item" title="不好"></li>
+    <li class="rating-item" title="一般"></li>
+    <li class="rating-item" title="好"></li>
+    <li class="rating-item" title="很好"></li>  
+  </ul>
+  <script type="text/javascript" src="./js/jquery.rating.js"></script>
+  <script type="text/javascript">
+    $("#rating1").rating(3);
+    $("#rating2").rating(4);
+  </script>
+</body>
+</html>
