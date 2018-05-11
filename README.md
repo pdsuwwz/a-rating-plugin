@@ -1,11 +1,11 @@
 # About this Rating Plugin Based on jQuery
 
-#### Basic info
+## Basic info
 
 * A rating plug-in that can customize icons to create a variety of rating combinations, the number of stars.
 
 
-#### Usage
+## Usage
 
 > To introduce css and javascript files into the page.
 
@@ -25,14 +25,12 @@
 </ul>
 ```
 
-#### Score
+## Score
 
 `$("#rating1").rating(num);`
 
+`num` ：*the number of stars*.
 
+## Update Log
 
-param | Type | Description 
-- | :-: | -: 
-num | {Number} | the number of stars 
-
-#### Update Log
+2018-5-10  `[^]` Optimized code
